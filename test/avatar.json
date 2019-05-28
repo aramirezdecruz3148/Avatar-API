@@ -1,53 +1,17 @@
 [
     {
-        "_id":"5cdf0769b6e02a467e3e7716",
-        "allies":
-            ["Zhu Li",""],
-        "enemies":
-            ["Unalaq"],
-        "photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/48/Varrick_looking_smug.png/revision/latest?cb=20131116223858",
-        "name":"Iknik Blackstone Varrick",
-        "gender":"Male",
-        "eye":"Light blue",
-        "hair":"Dark brown",
-        "skin":"Light tan",
-        "love":"Zhu Li",
-        "profession":" Business magnate Inventor Rebel leader (formerly) Researcher Soldier (formerly)",
-        "position":" Corporal[3] and scientist in the military of the Earth Empire (formerly) Earth Empire fugitive (formerly) First Gentleman of the United Republic[4] Head of Zaofu's technology department (formerly) Leader of the Southern Water Tribe rebels (formerly) Prisoner in the Republic City prison (formerly) United Republic fugitive (pardoned by President Raiko) Upper-class Southern Water Tribe citizen",
-        "predecessor":"Buttercup Raiko",
-        "affiliation":" Kuvira's army (deserted) Metal Clan (formerly) Southern Water Tribe rebels (formerly) Team Avatar Varrick Global Industries",
-        "first":"\"","__v":0
+        "_id": "5cdf0769b6e02a467e3e766b",
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/5/51/46th_Earth_King.png/revision/latest?cb=20130627160441",
+        "name": "46th Earth King"
     },
-    
     {
-        "_id":"5cdf0769b6e02a467e3e77e7",
-        "allies":
-            ["Freedom Fighters","Jet",""],
-        "enemies":
-            ["Fire Nation"],
-        "photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/3/3a/Smellerbee.png/revision/latest?cb=20140413234450",
-        "name":"Smellerbee",
-        "gender":"Female",
-        "hair":"Brown",
-        "weapon":"Swords, daggers, knives",
-        "profession":"Freedom Fighter",
-        "position":" Leader of the Freedom Fighters Thief[2]",
-        "predecessor":"Jet",
-        "affiliation":" Earth Kingdom Freedom Fighters",
-        "first":"\"","__v":0
+        "_id": "5cdf0769b6e02a467e3e766c",
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/a/ae/Aang_at_Jasmine_Dragon.png/revision/latest?cb=20130612174003",
+        "name": "Aang"
     },
-
     {
-        "_id":"5cdf0769b6e02a467e3e769b",
-        "allies":
-            ["Aunt "],
-        "enemies":
-            ["Fire Nation"],
-        "photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/b/b6/Calm_man.png/revision/latest?cb=20130814093330",
-        "name":"Calm man",
-        "gender":"Male",
-        "hair":"Gray",
-        "affiliation":"Earth Kingdom",
-        "first":"\"","__v":0
-    }
+        "_id": "5cdf0769b6e02a467e3e766d",
+        "photoUrl": "https://vignette.wikia.nocookie.net/avatar/images/2/21/Into_The_Inferno_Aang.png/revision/latest?cb=20131009060746",
+        "name": "Aang (games)"
+     }
 ]
