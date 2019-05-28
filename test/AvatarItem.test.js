@@ -17,5 +17,9 @@ test('renders template from data', assert => {
 
     //assert
     assert.htmlEqual(rendered, /*html*/`
-        `);
+        <li class="avatar-item">
+            <h3>46th Earth King</h3>
+            <img src="https://vignette.wikia.nocookie.net/avatar/images/5/51/46th_Earth_King.png/revision/latest?cb=20130627160441" alt="46th Earth King">
+        </li>    
+    `);
 });
