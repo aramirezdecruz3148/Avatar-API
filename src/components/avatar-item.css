@@ -1,0 +1,16 @@
+.avatar-item {
+    list-style: none;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    margin: 0 10px 10px 0;
+    background-color: #8F989A;
+    border: 2px solid #E0D4AB;
+    box-shadow: 4px 4px 4px black;
+    font-style: italic;
+    margin: auto;
+}
+
+.avatar-item img {
+    height: 150px;
+}
