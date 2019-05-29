@@ -21,7 +21,7 @@ class App extends Component {
         const loading = new Loading({ loading: false });
         main.appendChild(loading.render());
 
-        function loadAvatars() {
+        function loadCharacters() {
             const params = window.location.hash.slice(1);
 
             const searchParams = new URLSearchParams(params);
@@ -41,10 +41,10 @@ class App extends Component {
                 });
         }
 
-        loadAvatars();
+        loadCharacters();
 
         window.addEventListener('hashchange', () => {
-            loadAvatars();
+            loadCharacters();
             console.log('test');
         });
 
