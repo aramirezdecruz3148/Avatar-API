@@ -24,13 +24,9 @@ class App extends Component {
         function loadCharacters() {
             const params = window.location.hash.slice(1);
 
-            const searchParams = new URLSearchParams(params);
-            const search = searchParams.toString();
-            
-
             loading.update({ loading: true });
 
-            avatarApi.getCharacters(search)
+            avatarApi.getCharacters(params)
                 .then(characters => {
                     avatarList.update({ characters });
                 })
@@ -41,6 +37,8 @@ class App extends Component {
                     loading.update({ loading: false });
                 });
         }
+
+        //a link with an empty search
 
         loadCharacters();
 

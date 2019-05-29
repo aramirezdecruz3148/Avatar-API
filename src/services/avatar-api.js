@@ -4,7 +4,6 @@ const avatarApi = {
     getCharacters(search) {
         let url = URL;
         url = `${URL}?${search}`;
-        console.log(url);
         return fetch(url)
             .then(response => response.json());
     }
