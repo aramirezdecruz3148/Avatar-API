@@ -7,9 +7,9 @@ class Loading extends Component {
         if(!loading) {
             return '<div></div>';
         }
-        
+
         return /*html*/`
-            <div>
+            <div class="loading">
                 <img src="../../assets/loading.gif" alt="loading...">
             </div>
         `;
