@@ -1,0 +1,10 @@
+.loading {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    background: rgba(239, 238, 238, 0.628);
+    text-align: center;
+    padding-top: 200px;
+}
