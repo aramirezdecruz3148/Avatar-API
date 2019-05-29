@@ -18,7 +18,7 @@ class App extends Component {
         const avatarList = new AvatarList({ characters: [] });
         main.appendChild(avatarList.render());
 
-        const loading = new Loading();
+        const loading = new Loading({ loading: true });
         main.appendChild(loading.render());
 
         avatarApi.getCharacters()
@@ -29,7 +29,7 @@ class App extends Component {
                 console.log(err);
             })
             .finally(() => {
-
+                loading.update({ loading: false });
             });
 
         return dom;
