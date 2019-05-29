@@ -1,19 +1,20 @@
 import Component from './Component.js';
+import AvatarItem from './AvatarItem.js';
 
 class AvatarList extends Component {
+
+    render() {
+        const list = this.renderDOM();
+        this.props.characters.forEach(character => {
+            const avatarItem = new AvatarItem({ character });
+            list.appendChild(avatarItem.render());
+        });
+        return list;
+    }
 
     renderTemplate() {
         return /*html*/`
             <ul class="avatar-list">
-                
-                <li class="avatar-item">
-                    <h3>Aang</h3>
-                    <img src="https://vignette.wikia.nocookie.net/avatar/images/a/ae/Aang_at_Jasmine_Dragon.png/revision/latest?cb=20130612174003" alt="Aang">
-                </li>
-                <li class="avatar-item">
-                    <h3>Aang (games)</h3>
-                    <img src="https://vignette.wikia.nocookie.net/avatar/images/2/21/Into_The_Inferno_Aang.png/revision/latest?cb=20131009060746" alt="Aang (games)">
-                </li>
             </ul>
         `;
     }

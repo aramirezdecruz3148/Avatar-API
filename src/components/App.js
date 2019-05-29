@@ -14,12 +14,12 @@ class App extends Component {
         const main = dom.querySelector('main');
         dom.insertBefore(headerDOM, main);
 
-        const avatarList = new AvatarList();
+        const avatarList = new AvatarList({ characters: [] });
         main.appendChild(avatarList.render());
 
         avatarApi.getCharacters()
             .then(characters => {
-                console.log(characters);
+                avatarList.update({ characters });
             })
             .catch(err => {
                 console.log(err);
