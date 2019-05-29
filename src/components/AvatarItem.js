@@ -11,12 +11,11 @@ class AvatarItem extends Component {
         if(!character.photoUrl) {
             character.photoUrl = '../../../assets/placeholder.jpg';
         }
-        const characterName = character.name.replace(' ', '+');
         return /*html*/`
             <li class="avatar-item">
                 <h3>${character.name}</h3>
-                <a class="link" href="#enemies=${characterName}">Enemies</a>
-                <a class="link" href="#allies=${characterName}">Allies</a>
+                <a class="link" href="#enemies=${character.name}">Enemies</a>
+                <a class="link" href="#allies=${character.name}">Allies</a>
                 <img src="${character.photoUrl}" alt="${character.name}">
             </li>
         `;

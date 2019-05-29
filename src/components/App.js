@@ -25,7 +25,8 @@ class App extends Component {
             const params = window.location.hash.slice(1);
 
             const searchParams = new URLSearchParams(params);
-            const search = searchParams.get('search');
+            const search = searchParams.toString();
+            
 
             loading.update({ loading: true });
 
