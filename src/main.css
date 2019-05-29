@@ -13,6 +13,7 @@ header {
     background-color: #E0D4AB;
     border: 4px solid #2D2628;
     color: #2D2628;
+    text-shadow: 1px 1px 1px rgb(156, 156, 156);
 }
 
 main {

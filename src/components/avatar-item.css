@@ -9,8 +9,10 @@
     font-style: italic;
     margin: auto;
     margin-bottom: 15px;
+    color: #2D2628;
 }
 
 .avatar-item img {
     height: 150px;
+    border: 2px solid #2D2628;
 }
