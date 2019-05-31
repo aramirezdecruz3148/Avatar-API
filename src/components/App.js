@@ -38,13 +38,10 @@ class App extends Component {
                 });
         }
 
-        //a link with an empty search
-
         loadCharacters();
 
         window.addEventListener('hashchange', () => {
             loadCharacters();
-            console.log('test');
         });
 
         return dom;
