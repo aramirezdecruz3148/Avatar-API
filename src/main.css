@@ -3,14 +3,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    background-color: #3E6266;
+    background-color: rgb(62, 98, 102);
 }
 
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #E0D4AB;
+    background-color: rgb(224, 212, 171);
     border: 4px solid #2D2628;
     color: #2D2628;
     text-shadow: 1px 1px 1px rgb(156, 156, 156);
@@ -21,6 +21,11 @@ main {
     position: relative;
 }
 
-#title {
-    margin-bottom: -5px;
+h1 {
+    font-size: 2.5em;
+}
+
+#home {
+    font-size: 1.5em;
+    margin-bottom: 5px;
 }

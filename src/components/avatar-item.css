@@ -1,18 +1,28 @@
 .avatar-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     list-style: none;
-    height: 250px;
-    width: 300px;
+    height: 385px;
+    width: 350px;
     text-align: center;
-    background-color: #8F989A;
+    background-color: rgb(143, 152, 154);
     border: 2px solid #E0D4AB;
     box-shadow: 4px 4px 4px black;
     font-style: italic;
+    font-weight: bolder;
     margin: auto;
     margin-bottom: 15px;
     color: #2D2628;
 }
 
 .avatar-item img {
-    height: 150px;
+    height: 40vh;
+    margin-left: 25px;
+    margin-right: 25px;
     border: 2px solid #2D2628;
+}
+
+.link {
+   font-style: normal;
 }
